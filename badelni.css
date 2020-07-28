@@ -23,8 +23,16 @@ body.offcanvas-active{
     transition: visibility .2s ease-in-out, transform .2s ease-in-out;
 		opacity: 0.9;
   }
-	#searcBar{
+	.navbar-collapse.show {
+		visibility: visible;
+		transform: translateX(-100%);
+	}
+	#searchBar{
 		width: 80%;
+	}
+	#searcIcon{
+		height: 2em;
+		width: 2em;
 	}
 	#loginOrSignup{
 		min-width: 80%;
@@ -37,10 +45,6 @@ body.offcanvas-active{
 		color: white;
 		background-color: black;
 	}
-  .navbar-collapse.show {
-    visibility: visible;
-    transform: translateX(-100%);
-  }
 	#footer{
 		text-align: center;
 	}
