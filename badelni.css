@@ -1,10 +1,14 @@
 body.offcanvas-active{
 	overflow:hidden;
 }
-.offcanvas-header{ display:none; }
+.offcanvas-header{
+	display:none;
+}
 
-@media (max-width: 992px) {
-  .offcanvas-header{ display:block; }
+@media (max-width: 992px){
+	.offcanvas-header{
+		display:block;
+	}
   .navbar-collapse {
     position: fixed;
     top:0;
@@ -15,24 +19,43 @@ body.offcanvas-active{
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: black;
+    background-color: #0F5298;
     transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+		opacity: 0.9;
   }
+	#searcBar{
+		width: 80%;
+	}
+	#loginOrSignup{
+		min-width: 80%;
+	}
+	#loginCard{
+		color: white;
+		background-color: black;
+	}
+	#signupCard{
+		color: white;
+		background-color: black;
+	}
   .navbar-collapse.show {
     visibility: visible;
     transform: translateX(-100%);
   }
+	#footer{
+		text-align: center;
+	}
 }
 
-#loginOrSignup{
-	opacity: 0.8;
-}
 #loginCard{
 	border-radius: 10px;
+	opacity: 0.6;
 }
+
 #signupCard{
 	border-radius: 10px;
+	opacity: 0.6;
 }
+
 .footer{
 	width: 100%;
 	position: fixed;
