@@ -34,6 +34,40 @@ body.offcanvas-active{
 		height: 2em;
 		width: 2em;
 	}
+	#footer{
+		text-align: center;
+	}
+}
+
+@media (max-width: 10.3227539062499991118216in) {
+	#loginOrSignup{
+		min-width: 50%;
+	}
+	#loginCard{
+		color: white;
+		background-color: black;
+	}
+	#signupCard{
+		color: white;
+		background-color: black;
+	}
+}
+
+@media (max-width: 9in) {
+	#loginOrSignup{
+		min-width: 60%;
+	}
+	#loginCard{
+		color: white;
+		background-color: black;
+	}
+	#signupCard{
+		color: white;
+		background-color: black;
+	}
+}
+
+@media (max-width: 7in) {
 	#loginOrSignup{
 		min-width: 80%;
 	}
@@ -44,9 +78,6 @@ body.offcanvas-active{
 	#signupCard{
 		color: white;
 		background-color: black;
-	}
-	#footer{
-		text-align: center;
 	}
 }
 
