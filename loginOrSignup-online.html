@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://gabermohamed18.github.io/badelni.css">
+
+    <title>Badelni</title>
+    <!-- ONLINE FAVICON -->
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg " type="image/gif" sizes="16x16">
+  </head>
+  <!-- ONLINE BODY -->
+  <body style="background: url(https://i.imgur.com/JK6h6xQ.png); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #0F5298">
+      <a class="navbar-brand text-decoration-none" href="#" data-toggle="tooltip" title="Homepge">
+        <!-- ONLINE IMG SRC -->
+        <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="website name">
+        <span class="text-light">Badelni</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-trigger="#main_nav" id="navbarButton">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse" id="main_nav">
+
+        <div class="offcanvas-header mt-3">
+    			<button class="btn btn-close float-right">
+            <span>
+              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8.354 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L9.793 7.5H5a.5.5 0 0 0 0 1h4.793l-2.147 2.146z"/>
+              </svg>
+            </span>
+          </button>
+    			<h5 class="py-2 text-white">Main navbar</h5>
+    		</div>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-light text-decoration-none" href="homepage.html" data-toggle="tooltip" title="Homepge">Home<span class="sr-only">(home page)</span></a>
+          </li>
+          <li style="width:10px"></li>
+        </ul>
+        <a class="navbar-brand text-decoration-none" href="https://www.facebook.com" data-toggle="tooltip" title="Follow us on Facebook!" target="_blank">
+          <!-- ONLINE IMG SRC -->
+          <img src="https://cdn.pixabay.com/photo/2017/06/22/06/22/facebook-2429746_960_720.png" width="30" height="30" class="d-inline-block align-top" alt="Follow us on Facebook!">
+        </a>
+        <a class="navbar-brand text-decoration-none" href="https://wwww.twitter.com" data-toggle="tooltip" title="Follow us on Twitter!" target="_blank">
+          <!-- ONLINE IMG SRC -->
+          <img src="https://cdn.pixabay.com/photo/2017/06/22/14/23/twitter-2430933_960_720.png" width="30" height="30" class="d-inline-block align-top" alt="Follow us on Twitter!">
+        </a>
+        <div>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search" id="searchBar">
+            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-search" fill="black" xmlns="http://www.w3.org/2000/svg" id="searcIcon">
+              <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+              <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+            </svg>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container" style="height:80px;"> </div>
+
+    <!-- LOGIN&SIGNUP -->
+    <div class="container col-5" id="loginOrSignup">
+      <div id="accordion">
+        <div class="card" id="loginCard">
+          <div class="card-header" id="loginCardHadear">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#loginCardCollapse" aria-expanded="true" aria-controls="loginCardCollapse">
+                Login
+              </button>
+            </h5>
+          </div>
+          <div id="loginCardCollapse" class="collapse show" aria-labelledby="loginCardHadear" data-parent="#accordion">
+            <div class="card-body">
+              <form class="" action="homePage.html" method="post">
+                <div class="form-group">
+                  <label class="font-weight-bold">Username</label>
+                  <input type="text" class="form-control" placeholder="Username!">
+                </div>
+                <div class="form-group">
+                  <label class="font-weight-bold">Password</label>
+                  <input type="password" class="form-control" placeholder="Password!">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+                <br><br>
+                <a href="#" class="text-decoration-none">Forgot password?</a>
+                OR
+                <a href="#signupCardCollapse" class="collapsed text-decoration-none" data-toggle="collapse" data-target="#signupCardCollapse" aria-expanded="false" aria-controls="signupCardCollapse">
+                  Don't have an account?
+                </a>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="signupCard">
+          <div class="card-header" id="signupCardHadear">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#signupCardCollapse" aria-expanded="false" aria-controls="signupCardCollapse" id="signup">
+                Signup
+              </button>
+            </h5>
+          </div>
+          <div id="signupCardCollapse" class="collapse" aria-labelledby="signupCardHadear" data-parent="#accordion">
+            <div class="card-body">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label class="font-weight-bold" for="inputUsername4">Username</label>
+                    <input type="text" class="form-control" id="inputUsername4" placeholder="Username" required>
+                    <small id="usernameNote"  >Note: You will login using this username</small>
+                  </div>
+                  <div class="form-group col-md-8">
+                    <label class="font-weight-bold" for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                  </div>
+                </div>
+                <form>
+                  <div class="form-group">
+                    <label class="font-weight-bold" for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password" minlength="8" maxlength="32" required>
+                    <small id="passwordHelpBlock" class="form-text ">
+                      Your password must be 8-32 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                    </small>
+                  </div>
+                  <div class="form-group">
+                    <label class="font-weight-bold" for="inputPassword4.1">Confirm password</label>
+                    <input type="password" class="form-control" id="inputPassword4.1" placeholder="Confirm password" minlength="8" maxlength="32" required>
+                  </div>
+                </form>
+                <div class="form-group">
+                  <label class="font-weight-bold" for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                </div>
+                <div class="form-group">
+                  <label class="font-weight-bold" for="inputAddress2">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-sm-6">
+                    <label class="font-weight-bold" for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity" required>
+                  </div>
+                  <div class="form-group col-sm-2">
+                    <label class="font-weight-bold" for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-sm-2">
+                    <label class="font-weight-bold" for="inputZip text-2">Zipcode</label>
+                    <input type="text" class="form-control" id="inputZip" required>
+                  </div>
+                  <div class="form-group col-sm-2">
+                    <label class="font-weight-bold" for="inputGender">Gender</label>
+                    <select id="inputGender" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>Male</option>
+                      <option>Female</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="font-weight-bold" for="selectNationalId">National ID</label>
+                  <input type="text" class="form-control" placeholder="National ID" minlength="14" maxlength="14" id="inputNationalId" required>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                    <label class="form-check-label" for="gridCheck">
+                      I accept the <a href="#" class="text-decoration-none">Privacy policy</a>
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign up</button>
+                <br><br>
+                <a href="#loginCardCollapse" class="collapsed text-decoration-none" data-toggle="collapse" data-target="#loginCardCollapse" aria-expanded="false" aria-controls="loginCardCollapse">
+                  Already have an account?
+                </a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="height:150px;"></div>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer py-4 bg-dark text-white-50">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5">
+            <a href="#" class="text-decoration-none">Contact us!</a>
+          </div>
+          <div class="col-sm-3">
+            <small>Copyright &copy; Badelni dev-team</small>
+          </div>
+          <div class="col-sm-3"></div>
+          <div class="col-sm-1" data-toggle="tooltip" title="Select Language">
+            <select class="btn-primary" id="languageMenu">
+              <option>en</option>
+              <option data-toogle="tooltip" title="This will be here soon" disabled>ar</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- SCRIPT -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- ONLINE JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://gabermohamed18.github.io/badelni.js"></script>
+</html>
